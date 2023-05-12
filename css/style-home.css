@@ -1,0 +1,185 @@
+.title{
+    display: inline;
+    text-align: left;
+    padding: 20x;
+    padding-left: 0;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 5px 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rebeccapurple;
+
+}
+.imagenesbanner{
+    display: flex;
+    padding-top: 75px;
+}
+
+.principal{
+    background:#CCCCCC;
+    width:auto;
+}
+
+#sobre{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.utensilios{
+    float: left;
+    width: 230px;
+    padding-left: 170px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.principal p{
+    text-align: justify;
+    padding: 5px;
+    margin: 0 0;
+    width: 940px;
+    padding-left: 170px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+em strong{
+    color:rebeccapurple;
+    text-align: center;
+    font-style: italic;
+}
+
+#mision{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+}
+
+.diferenciales{
+    background: linear-gradient(#CCCCCC,#FFFFFF);
+    padding: 30px;
+}
+#ofrecemos{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 18px;
+    padding-top: 20px;
+}
+.servicios li{
+    display: inline-block;
+    width: 20%;
+    vertical-align:baseline;
+    margin-block: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.items{
+    font-style: italic;
+    font-size: 17px;
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.imgdiferenciales{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    margin-left: 20px;
+    padding-left: 350px;
+    padding-bottom: 10px;
+}
+.video{
+    display: inline;
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 50px;
+}
+#ubicacion{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 18px;  
+}
+.mapa{
+    text-align: center;
+    padding: auto;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    text-align: center;
+    background: url(../assets/imagenes/bg.jpg);
+    padding: 30px;
+    margin: 0;
+}
+.copywright{
+    color: #FFFFFF;
+    font-size: small;
+    margin: 10px;
+}
+
+@media screen and (max-width:480px){
+    .title{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .imagenesbanner{
+        width: 100%;
+    }
+    .caja, .principal, .mapa, .diferenciales, .servicios, .video, .copywright{
+        width: auto;
+    }
+    .utensilios{
+        width: 100%;
+        padding: 0%;
+    }
+    .principal p{
+        width: 100%;
+        padding: 0%;
+    }
+    .items{
+        align-items: center;
+    }
+    .imgdiferenciales{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+        padding: 0%;
+    }
+    .mapa{
+        width: 100%;
+        padding: 0%;
+    }
+}
